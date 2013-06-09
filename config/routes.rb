@@ -1,5 +1,6 @@
 DateTracker::Application.routes.draw do
-  root :to
+  root :to => "events#index"
+  resources :events
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
